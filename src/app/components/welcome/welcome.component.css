@@ -1,0 +1,38 @@
+/*=============== HOME SECTION ===============*/
+.home p {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Cormorant', serif;
+}
+
+/*=============== CONTENT ===============*/
+.content {
+  border-radius: var(--border-radius);
+  background: #F6F6F6;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.content-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  margin: 0 50px;
+}
+
+@media screen and (max-width: 420px) {
+  .home {
+    width: 100%;
+  }
+  .home p {
+    margin: 0;
+  }
+  .content-card {
+    margin: 0;
+  }
+}
